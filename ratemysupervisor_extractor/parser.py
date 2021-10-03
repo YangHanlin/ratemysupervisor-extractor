@@ -14,9 +14,7 @@ _COMMENT_PATTERN = re.compile(
     r'2})\s*', re.DOTALL)
 
 
-def parse(source: Union[str, TextIO], school_cate: str = None, university: str = None) -> Iterable[Comment]:
-    if not isinstance(source, str):
-        source = source.read()
+def parse_text(source: str, school_cate: str = None, university: str = None) -> Iterable[Comment]:
     comments = []
     supervisor_sections = source.split(_SUPERVISOR_SEPARATOR)
     department = re.match(_SOURCE_HEADER_PATTERN, supervisor_sections[0]).groupdict()['department']
@@ -34,6 +32,14 @@ def parse(source: Union[str, TextIO], school_cate: str = None, university: str =
                               datetime.strptime(comment_data['date'], '%Y-%m'), rates=rates)
             comments.append(comment)
     return comments
+
+
+def parse_file(source: Union[str, TextIO], school_cate: str = None, university: str = None, **kwargs) -> Iterable[Comment]:
+    if isinstance(source, str):
+        with open(source, 'r', **kwargs) as f:
+            return parse_text(f.read(), school_cate, university)
+    else:
+        return parse_text(source.read(), school_cate, university)
 
 
 def _parse_rate(rate: str):
