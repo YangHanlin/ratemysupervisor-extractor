@@ -30,7 +30,7 @@ def parse(source: Union[str, TextIO], school_cate: str = None, university: str =
                                   _parse_rate(comment_data['rate_research_budget']),
                                   _parse_rate(comment_data['rate_relationship']),
                                   _parse_rate(comment_data['rate_student_development']))
-            comment = Comment(supervisor, comment_data['description'],
+            comment = Comment(supervisor, comment_data['description'].strip(),
                               datetime.strptime(comment_data['date'], '%Y-%m'), rates=rates)
             comments.append(comment)
     return comments
