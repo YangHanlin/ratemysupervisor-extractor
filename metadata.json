@@ -1,0 +1,11 @@
+{
+  "name": "ratemysupervisor-extractor",
+  "version": "0.1",
+  "description": "An extractor for data from ratemysupervisor.org",
+  "url": "https://github.com/YangHanlin/ratemysupervisor-extractor",
+  "author": "Yang Hanlin",
+  "author_email": "mattoncis@hotmail.com",
+  "packages": [
+    "ratemysupervisor_extractor"
+  ]
+}
