@@ -1,0 +1,50 @@
+[
+  {
+    "counts": 0,
+    "date": "2020-01",
+    "department": "Tokiwadai Middle School",
+    "description": "Watanabe has an appearance of a kind elderly woman, who still shows an air of austere dignification with how she presents herself. Her countenance shows her advance age, through the wrinkles and various contours.\n\nThese aged appearance is furthered by how her tied hair pulls up her hairline, as well as her wearing oval glasses. She is shown to have great concern and kindness towards her students!\n\nComments above are taken from <https://toarumajutsunoindex.fandom.com/wiki/Watanabe> and licensed under CC-BY-SA.",
+    "rate": 5.0,
+    "rates": {
+      "academic_level": 5,
+      "relationship": 5,
+      "research_budget": 5,
+      "student_development": 5
+    },
+    "school_cate": "School District 7, Academy City",
+    "supervisor": "Watanabe",
+    "university": "School Garden"
+  },
+  {
+    "counts": 0,
+    "date": "2020-09",
+    "department": "Tokiwadai Middle School",
+    "description": "As the housemaster of the Tokiwadai Dorm, she is very strict and has zero tolerance for espers who do not follow rules for any reason whatsoever. She also has no qualms in assaulting the students who are troublemakers, by snapping their necks and making them faint (though only Kuroko seems to receive this treatment).\n\nWe do not have a good relationship with her; she seems to enjoy making us \"afraid\" of her.\n\nComments above are partly taken from <https://toarumajutsunoindex.fandom.com/wiki/Tokiwadai_Dorm_Supervisor> and licensed under CC-BY-SA.",
+    "rate": 3.25,
+    "rates": {
+      "academic_level": 4,
+      "relationship": 1,
+      "research_budget": 4,
+      "student_development": 4
+    },
+    "school_cate": "School District 7, Academy City",
+    "supervisor": "Dorm Supervisor",
+    "university": "School Garden"
+  },
+  {
+    "counts": 0,
+    "date": "2020-05",
+    "department": "Tokiwadai Middle School",
+    "description": "When volunteering for work in Asunaro Park, she shows great affection for the children who reside there and is very easily approachable - a stark contrast to her nature as the housemaster of the Tokiwadai dormitory. She also shows great affection for Daigo, another volunteer in Asunaro Park, where she can get easily flustered and embarrassed when he is near her (that was another sad story...).\n\nComments above are partly taken from <https://toarumajutsunoindex.fandom.com/wiki/Tokiwadai_Dorm_Supervisor> and licensed under CC-BY-SA.",
+    "rate": 4.333333333333333,
+    "rates": {
+      "academic_level": 4,
+      "relationship": null,
+      "research_budget": 4,
+      "student_development": 5
+    },
+    "school_cate": "School District 7, Academy City",
+    "supervisor": "Dorm Supervisor",
+    "university": "School Garden"
+  }
+]
